@@ -1,0 +1,85 @@
+
+body{
+  font-family: 'Playfair Display', 'PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular';
+  color: #626262;
+}
+.wrap{
+  width: 900px;
+  margin: 0 auto;
+}
+nav{
+  max-width: max-content;
+  margin: 0 auto;
+}
+ul{
+  width: 570px;
+  list-style: none;
+  padding: 76px 0 100px;
+  text-align-last: justify;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #626262;
+}
+ul li a:hover{
+  color: #03A9F4;
+}
+ul li a:active{
+  color: white;
+  border-radius: 4px;
+  background-color: #03A9F4;
+}
+section{
+  text-align: justify;
+  text-align-last: justify;
+}
+figure{
+  width: 420px;
+  display: inline-block;
+  ;
+}
+figure img{
+  padding-bottom: 30px; 
+}
+figcaption{
+  text-align-last: auto;
+}
+figcaption h3{
+  padding: 36px 0 46px;
+  font-size: 30px;
+}
+figcaption h3:first-letter{
+  text-transform: capitalize;
+}
+figcaption p:first-of-type{
+  color: #B4AD9E;
+  font-family: 'Ubuntu','Ubuntu-Light,AdobeInvisFont,MyriadPro-Regular';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+figcaption p:last-of-type{
+  padding-bottom: 132px;
+  font-size: 14px;
+}
+.last-figure figcaption p:last-of-type{
+ padding-bottom: 54px; 
+}
+button{
+  display: block;
+  margin: 0 auto;
+  width: 164px;
+  height: 60px;
+  font-size: 20px;
+  color: #626262;
+  margin-bottom: 70px;
+  border: 1px solid #626262;
+
+}
+button:first-letter{
+  text-transform: capitalize;
+}
