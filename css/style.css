@@ -8,28 +8,29 @@ body{
   margin: 0 auto;
 }
 nav{
-  max-width: max-content;
-  margin: 0 auto;
+  text-align: center;
 }
-ul{
-  width: 570px;
+.menu ul{
   list-style: none;
-  padding: 76px 0 100px;
-  text-align-last: justify;
+  padding: 53px 0 80px;
 }
-ul li{
+.menu ul li{
   display: inline-block;
+  padding-right: 100px;
 }
-ul li a{
+.menu ul li:last-of-type{
+  padding-right: 0;
+}
+.menu ul li a{
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
   color: #626262;
 }
-ul li a:hover{
+.menu ul li a:hover{
   color: #03A9F4;
 }
-ul li a:active{
+.menu ul li a:active{
   color: white;
   border-radius: 4px;
   background-color: #03A9F4;
@@ -44,13 +45,13 @@ figure{
   ;
 }
 figure img{
-  padding-bottom: 30px; 
+  margin-bottom: 30px; 
 }
 figcaption{
   text-align-last: auto;
 }
 figcaption h3{
-  padding: 36px 0 46px;
+  padding: 12px 0 30px;
   font-size: 30px;
 }
 figcaption h3:first-letter{
@@ -67,7 +68,7 @@ figcaption p:last-of-type{
   font-size: 14px;
 }
 .last-figure figcaption p:last-of-type{
- padding-bottom: 54px; 
+ padding-bottom: 64px; 
 }
 button{
   display: block;
@@ -75,10 +76,8 @@ button{
   width: 164px;
   height: 60px;
   font-size: 20px;
-  color: #626262;
   margin-bottom: 70px;
   border: 1px solid #626262;
-
 }
 button:first-letter{
   text-transform: capitalize;
